@@ -1,0 +1,9 @@
+.topbar{
+    width: 100%;
+    border-bottom: 1px;
+    background-color: rgb(180, 159, 255);
+    border-color: black;
+    padding: 1rem;
+    padding-left: 5%;
+    
+}
