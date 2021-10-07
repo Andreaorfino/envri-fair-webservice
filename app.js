@@ -19,15 +19,20 @@ app.use(cors());
 app.use(helmet());
 
 const indexRoute = require('./routes/index');
+const dataRoute = require('./routes/data')
 
 app.use('/home', indexRoute);
+
+app.use('/data', dataRoute);
 
 app.use('/', (req, res, next) => {
     res.redirect('/home');
 });
 
 console.log('listening');
+
+
+const Event = require('./model/event');
+
 app.listen(process.env.PORT || 3000);
-
-
 

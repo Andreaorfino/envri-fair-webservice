@@ -34,7 +34,7 @@ What to have in mind:
 4. (Meta)data are registered or indexed in a searchable resource
 
 
-## Discussion
+## Work
 
 1. Examine the potential approaches and methodologies to webservices for data, choose the best one for your project and explain why 
 
